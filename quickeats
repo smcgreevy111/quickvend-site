@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickVend Solutions</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #0074D9; color: white; padding: 1em 2em; text-align: center; }
+    nav { background: #005fa3; padding: 0.5em 2em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    section { padding: 2em; }
+    footer { background: #333; color: white; text-align: center; padding: 1em 2em; }
+    .hero { background: url('https://images.unsplash.com/photo-1618220186351-ff0dfbecc9d2') no-repeat center center/cover; color: white; padding: 5em 2em; text-align: center; }
+    .services, .contact, .gallery { max-width: 800px; margin: auto; }
+    .services h2, .contact h2, .gallery h2 { text-align: center; color: #0074D9; }
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1em; }
+    .gallery-grid img { width: 100%; height: auto; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QuickVend Solutions</h1>
+    <p>Your Reliable Vending Machine Partner</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Effortless Vending Services for Offices, Gyms, Schools & More</h2>
+    <p>We install, stock, and service machines at no cost to you</p>
+  </div>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Free vending machine placement</li>
+      <li>Custom snack and drink selections</li>
+      <li>24/7 restocking and maintenance</li>
+      <li>Cashless payment support</li>
+      <li>Energy-efficient modern machines</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1585238342028-9388b0cbe34b" alt="Snack Machine" />
+      <img src="https://images.unsplash.com/photo-1560185127-6ed189bf004b" alt="Drink Machine" />
+      <img src="https://images.unsplash.com/photo-1618220356613-bf6db5a45e64" alt="Modern Vending Machine" />
+      <img src="https://images.unsplash.com/photo-1590080877034-1c1fc6e7768d" alt="Office Breakroom" />
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get a Free Machine</h2>
+    <p>Fill out the form below and we'll contact you to schedule a site visit.</p>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="location">Location Address:</label><br>
+      <input type="text" id="location" name="location" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Additional Notes:</label><br>
+      <textarea id="message" name="message"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 QuickVend Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
