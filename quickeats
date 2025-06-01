@@ -49,10 +49,8 @@
   <section id="gallery" class="gallery">
     <h2>Photo Gallery</h2>
     <div class="gallery-grid">
-      <img src="https://images.unsplash.com/photo-1585238342028-9388b0cbe34b" alt="Snack Machine" />
-      <img src="https://images.unsplash.com/photo-1560185127-6ed189bf004b" alt="Drink Machine" />
-      <img src="https://images.unsplash.com/photo-1618220356613-bf6db5a45e64" alt="Modern Vending Machine" />
-      <img src="https://images.unsplash.com/photo-1590080877034-1c1fc6e7768d" alt="Office Breakroom" />
+      <div class="gallery">
+  <img src="https://www.vending.com/wp-content/uploads/2021/12/EvokeSnack6frnt_3.5.png" alt="Modern snack vending machine" width="300" />
     </div>
   </section>
 
